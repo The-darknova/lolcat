@@ -24,7 +24,7 @@ Write-Host ""
 Write-Host "0: Quit"
 Write-Host ""
 
-$choice = Read-Host "Please select an option (1, 2, or Q)"
+$choice = Read-Host "Please select an option (1, 2, or 0)"
 
 # --- Logic Flow ---
 Switch ($choice) {
@@ -73,7 +73,7 @@ Switch ($choice) {
         }
     }
 
-    "Q" {
+    "0" {
         Write-Host "Exiting..."
         Exit
     }
